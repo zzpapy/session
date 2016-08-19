@@ -1,1 +1,3 @@
-traitement_logout.php
+<?php 
+ 	session_destroy();
+?>

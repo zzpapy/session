@@ -22,13 +22,14 @@ if (isset($_POST["submit"]))
 				$_SESSION["name"]=$stock[$i]["name"];
 				$_SESSION["username"]=$username;
 				
-				echo "aaaaaaa";
+				
 				$_SESSION["email"]=$stock[$i]["email"];
-				var_dump($_SESSION["email"]);
+				
 			}
+			$log=true;
 			$i++;
-		// header("Location: index.php?page=home");
 		}
+		require ("apps/header.php");
 		exit; 
 		
 		

@@ -1,5 +1,6 @@
 <?php
 session_start();
+$log=false;
 //date_default_timezone_set('UTC');
 
 $page = "home";
